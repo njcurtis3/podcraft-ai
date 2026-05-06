@@ -1,0 +1,30 @@
+{
+  "topic": "The impact of AI on newsroom employment",
+  "key_angles": [
+    "Automation of routine reporting tasks like earnings summaries and sports recaps",
+    "AI as a tool for investigative journalism — pattern detection in large datasets",
+    "Job displacement vs. job transformation: editors and data journalists as beneficiaries",
+    "Ethical concerns around AI-generated content and disclosure requirements",
+    "Economic pressures driving adoption in local news deserts"
+  ],
+  "facts_and_stats": [
+    "Reuters and AP have used automated writing tools since at least 2014 for earnings and sports stories",
+    "A 2023 Reuters Institute Digital News Report found 39% of editors considered AI a threat to journalism jobs",
+    "The Washington Post's Heliograf system produced over 850 stories in its first year",
+    "US newsroom employment fell ~26% between 2008 and 2020, per Pew Research Center",
+    "CNET published AI-generated finance explainers in early 2023, later quietly issuing corrections on several"
+  ],
+  "expert_perspectives": [
+    "Charlie Beckett (LSE): AI will change what journalists do, not eliminate journalism itself",
+    "Emily Bell (Columbia Tow Center): algorithmic content risks homogenising news and reducing editorial diversity",
+    "Francesco Marconi (ex-AP): AI frees reporters from commodity tasks so they can focus on accountability work"
+  ],
+  "controversy_or_nuance": "The central tension is between efficiency gains that keep struggling newsrooms alive and the risk that cost-cutting owners use AI as cover for further layoffs. Critics argue that even 'assisted' AI content launders misinformation at scale, while proponents say human oversight protocols make AI-assisted journalism safer than under-resourced human-only reporting. Disclosure norms remain inconsistent across outlets.",
+  "sources": [
+    "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2023",
+    "https://www.pewresearch.org/journalism/fact-sheet/newspapers/",
+    "https://www.washingtonpost.com/pr/2017/09/01/the-washington-posts-robot-reporter-has-published-850-articles-in-the-past-year/",
+    "https://www.niemanlab.org/2023/01/cnet-is-using-an-ai-to-write-stories/",
+    "https://towcenter.columbia.edu/news/ai-and-journalism"
+  ]
+}

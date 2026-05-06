@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\natha\\\\Desktop\\\\repos\\\\podcraft-ai\" -Recurse -File)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)",
+      "Bash(pip install *)",
+      "Bash(Get-Content \"C:\\\\Users\\\\natha\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-natha-Desktop-repos-podcraft-ai\\\\d93812e7-8c54-4fc7-a3dc-50e15af889e9\\\\tasks\\\\b1qe45mct.output\" -Wait)",
+      "Bash(Select-String -Pattern \"Successfully installed|ERROR|error|already satisfied|WARNING\" --SimpleMatch)",
+      "Bash(Get-Content \"C:\\\\Users\\\\natha\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-natha-Desktop-repos-podcraft-ai\\\\d93812e7-8c54-4fc7-a3dc-50e15af889e9\\\\tasks\\\\b1qe45mct.output\" -Tail 50)"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "title": "Robots in the Newsroom: AI and the Future of Journalism Jobs",
+  "duration_estimate": "21 min",
+  "segments": [
+    {
+      "segment": "intro",
+      "turns": [
+        {
+          "speaker": "HOST_A",
+          "text": "Welcome to the show. Today we're asking a question that's making a lot of journalists a little nervous: is AI coming for their jobs? I'm talking about the tools that are already writing sports recaps, earnings summaries, and now full financial explainers — sometimes without a byline that tells you a human wasn't involved."
+        },
+        {
+          "speaker": "HOST_B",
+          "text": "And it's not science fiction — Reuters and the AP have been doing this since 2014. The Washington Post's in-house system, Heliograf, knocked out over 850 stories in its first year alone. So the question isn't whether AI can write. The question is what that means for the people who used to."
+        },
+        {
+          "speaker": "HOST_A",
+          "text": "Exactly. And we've got a really nuanced picture here — it's not just doom and gloom. Some researchers argue this is actually good for journalism. Others say it's a convenient excuse for owners to cut staff. We'll get into all of it."
+        }
+      ]
+    },
+    {
+      "segment": "main",
+      "turns": [
+        {
+          "speaker": "HOST_A",
+          "text": "So let's start with what AI is actually doing in newsrooms today. Because I think a lot of people imagine some robot editor sitting at a desk. The reality is more mundane — and in some ways more interesting."
+        },
+        {
+          "speaker": "HOST_B",
+          "text": "Right. The bread and butter use case is templated reporting. You feed the system structured data — a box score, a quarterly earnings release — and it fills in the narrative. It's fast, it's cheap, and honestly for those kinds of stories, it's pretty good. Nobody's reading an AP earnings brief for the prose."
+        },
+        {
+          "speaker": "HOST_A",
+          "text": "But CNET took that further, didn't they? They were publishing AI-generated finance explainers and not really telling readers."
+        },
+        {
+          "speaker": "HOST_B",
+          "text": "Yeah, and that's where it got messy. Early 2023, it came out that CNET had published dozens of these pieces, and when people dug in, several had factual errors that had to be corrected. Which raises a real question about oversight — or the lack of it."
+        },
+        {
+          "speaker": "HOST_A",
+          "text": "That's the disclosure problem. And it feels like the industry hasn't figured out a consistent answer. Some outlets put a label on it, some don't."
+        },
+        {
+          "speaker": "HOST_B",
+          "text": "Emily Bell at Columbia's Tow Center has been pretty vocal about this — she worries that algorithmic content homogenises what news looks like, reduces editorial diversity. And I think that's a legitimate concern beyond just the errors. Even if the facts are right, who decided what story to write?"
+        },
+        {
+          "speaker": "HOST_A",
+          "text": "That's such a good point. The gatekeeping function — deciding what's worth covering — that's still a human job, right? Or at least it should be."
+        },
+        {
+          "speaker": "HOST_B",
+          "text": "For now. But the employment picture is bleak regardless of AI. Pew found US newsroom employment dropped about 26% between 2008 and 2020. Local news is hollowed out. And in that environment, any technology that promises to do more with less is going to be adopted fast."
+        },
+        {
+          "speaker": "HOST_A",
+          "text": "And that's the tension, isn't it? Charlie Beckett at LSE makes this argument that AI will change what journalists do without eliminating journalism. The optimistic read. Francesco Marconi, who worked at the AP, says the same — AI handles the commodity stories so reporters can focus on accountability work."
+        },
+        {
+          "speaker": "HOST_B",
+          "text": "I want to believe that. But I'm sceptical that it plays out that way when the incentive is to cut costs. If a publisher can replace five reporters with one AI and one editor, the economics are pretty compelling even if the journalism suffers."
+        },
+        {
+          "speaker": "HOST_A",
+          "text": "So it becomes a question of who controls the deployment. Is it journalists shaping the tool, or is it owners using the tool to reshape — or shrink — the journalism?"
+        },
+        {
+          "speaker": "HOST_B",
+          "text": "And the Reuters Institute survey from 2023 found 39% of editors saw AI as a threat to jobs. That's not a fringe view inside the industry. These are the people managing newsrooms."
+        }
+      ]
+    },
+    {
+      "segment": "wrap",
+      "turns": [
+        {
+          "speaker": "HOST_A",
+          "text": "So where does that leave us? I think the honest answer is: it depends on choices that are being made right now, mostly by people who aren't journalists. The technology is here. The norms around disclosure, oversight, and labour aren't."
+        },
+        {
+          "speaker": "HOST_B",
+          "text": "Watch for union negotiations at major outlets — that's where the rubber meets the road. And keep an eye on the FTC and any movement on AI disclosure requirements. Those regulatory decisions will shape this more than any individual newsroom's policy."
+        },
+        {
+          "speaker": "HOST_A",
+          "text": "Thanks for listening. If this got you thinking, share it with someone who works in media — or someone who reads it. Links in the show notes as always."
+        }
+      ]
+    }
+  ]
+}
