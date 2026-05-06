@@ -316,7 +316,7 @@ Always build and validate each stage independently before connecting them.
 ## Useful Commands
 
 ```bash
-# Install dependencies
+# Install Python dependencies
 pip install -r requirements.txt
 
 # Run linter
@@ -330,7 +330,22 @@ python src/pipeline.py --topic "AI in journalism" --episode 1 --dev
 
 # Run pipeline (full)
 python src/pipeline.py --topic "AI in journalism" --episode 1
+
+# Start the web API (FastAPI + uvicorn)
+python server.py
+
+# Install frontend dependencies (first time)
+cd web && npm install
+
+# Start the frontend dev server (run alongside the API)
+cd web && npm run dev
+
+# Build the frontend for production
+cd web && npm run build
 ```
+
+> The web UI runs at `http://localhost:5173` (dev) and proxies all `/api` and `/episodes`
+> requests to the FastAPI server at `http://localhost:8000`. Start both servers to use the UI.
 
 ---
 
