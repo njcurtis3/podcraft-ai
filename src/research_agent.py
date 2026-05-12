@@ -9,7 +9,7 @@ import os
 from typing import Any
 
 from dotenv import load_dotenv
-from langchain.agents import AgentExecutor, create_react_agent
+from langchain_classic.agents import AgentExecutor, create_react_agent
 from langchain_anthropic import ChatAnthropic
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_core.prompts import PromptTemplate
@@ -20,7 +20,7 @@ from src.utils.validators import validate_brief
 load_dotenv()
 
 PROMPT_PATH = os.path.join(os.path.dirname(__file__), "..", "prompts", "research_prompt.txt")
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "claude-sonnet-4-5"
 MAX_SEARCHES = 5
 
 

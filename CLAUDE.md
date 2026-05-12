@@ -63,7 +63,7 @@ podcraft-ai/
 
 | Layer | Tool |
 |---|---|
-| LLM | Anthropic Claude `claude-sonnet-4-20250514` |
+| LLM | Anthropic Claude `claude-sonnet-4-5` |
 | Agent Orchestration | LangChain |
 | Web Search | Tavily API |
 | Text-to-Speech | ElevenLabs `eleven_turbo_v2` |

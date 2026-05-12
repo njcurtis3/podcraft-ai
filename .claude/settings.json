@@ -13,7 +13,27 @@
       "Bash(git config *)",
       "Bash(git rebase *)",
       "Bash(git stash *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(python -c \"from pydub import AudioSegment; print\\('pydub OK'\\)\")",
+      "Bash(python -c \"import pydub; import os; print\\(os.path.dirname\\(pydub.__file__\\)\\)\")",
+      "Read(//c/Users/natha/AppData/Roaming/Python/Python313/site-packages/pydub/**)",
+      "Bash(python -c \"import langchain; print\\(langchain.__version__\\)\")",
+      "Bash(python -c \"from langchain.agents import AgentExecutor\")",
+      "Bash(python -c \"from langchain_core.agents import AgentExecutor; print\\('found in langchain_core'\\)\")",
+      "Bash(python -c \"from langchain.agents.agent import AgentExecutor; print\\('found in langchain.agents.agent'\\)\")",
+      "Bash(python -c \"from langchain_classic.agents import AgentExecutor, create_react_agent; print\\('found in langchain_classic'\\)\")",
+      "Bash(where ffmpeg *)",
+      "Bash(python -c \"import shutil; print\\(shutil.which\\('ffmpeg'\\)\\)\")",
+      "Bash(powershell -Command \"Get-Command ffmpeg | Select-Object -ExpandProperty Source\")",
+      "Bash(powershell -Command \"Get-ChildItem -Path 'C:\\\\' -Filter 'ffmpeg.exe' -Recurse -ErrorAction SilentlyContinue | Select-Object -First 3 FullName\")",
+      "PowerShell(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -ErrorAction SilentlyContinue | Select-Object Name)",
+      "PowerShell(Get-ChildItem \"C:\\\\ProgramData\\\\chocolatey\\\\bin\",\"C:\\\\tools\",\"$env:USERPROFILE\\\\scoop\\\\shims\" -Filter \"ffmpeg.exe\" -ErrorAction SilentlyContinue | Select-Object FullName)",
+      "PowerShell(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter \"ffmpeg.exe\" -ErrorAction SilentlyContinue | Select-Object FullName)",
+      "PowerShell(Get-ChildItem \"$env:ProgramFiles\",\"$env:ProgramFiles\\(x86\\)\",\"$env:LOCALAPPDATA\",\"$env:APPDATA\" -Recurse -Filter \"ffmpeg.exe\" -ErrorAction SilentlyContinue -Depth 5 | Select-Object -First 3 FullName)",
+      "PowerShell(cmd /c where ffmpeg 2>&1)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\natha\\AppData\\Roaming\\Python\\Python313\\site-packages\\pydub"
     ]
   }
 }
